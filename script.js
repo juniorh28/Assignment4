@@ -22,19 +22,16 @@ header.onmouseover = function()
     // alert("Hey, I told you not to hover over me!");
 }
 
-var passWord = document.getElementById("id").value;
-
-if(typeof passWord === 'number')
+function passValid()
 {
-    if(passWord === 12345678)
-    {
-        heading = document.getElementById('');
-        heading.innerText;
-        headding.innerText = "The passoword is correct";
-        header.innerText;
-    }else{
-        alert("The password is incorrect!");
-    }
-}else{
-    alert("This is not a number!");
+    var passWord = document.getElementById('password').value;
+    
+        if(passWord == 12345678)
+        {
+            document.getElementById("stuff").innerHTML = "The password is correct";
+        }else{
+            alert("The password is incorrect!");
+        }
+    
 }
+
