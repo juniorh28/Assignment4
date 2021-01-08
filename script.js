@@ -19,7 +19,7 @@ var header = document.querySelector('.header');
 
 header.onmouseover = function()
 {
-    // alert("Hey, I told you not to hover over me!");
+    alert("Hey, I told you not to hover over me!");
 }
 
 function passValid()
